@@ -1,0 +1,79 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	max-width: 2048px;
+	
+}
+
+aside{
+	width: 4%;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	background-color: black;
+	height: 1000px;
+}
+
+a{
+	width: 100%;
+	transition: 1s;
+	text-decoration: none;
+	color: white;
+
+}
+
+
+a:hover{
+	background-color: black;
+	color: red;
+	transition: 1s;
+
+}
+
+
+header{
+	width: 90%;
+}
+
+.banner{
+	width: 98%;
+	height: 600px;
+
+}
+
+/*-------------------------------------------*/
+
+
+section{
+	width: 80%;
+	display: flex;
+	margin-top: 120px;
+}
+
+article{
+	width: 100%;
+}
+
+.materias{
+	width: 80%;
+	border-radius: 50%;
+	transition: 1s;
+}
+
+.materias:hover{
+	transform: rotateY(180deg);
+	transition: 1s;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 1.3em;
+	margin-top: 80px;
+}
